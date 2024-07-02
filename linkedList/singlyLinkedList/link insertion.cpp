@@ -45,13 +45,10 @@ int main()
     node*head=node1;
     insert_head(head,30);
     insert_head(head,40);
-    //insert_head(head,50);
     insert_head(head,60);
     print(head);
     cout<<endl;
     node*tail=node1;
-    //insert_tail(tail,20);
-    //insert_tail(tail,30);
     insert_tail(tail,40);
     insert_tail(tail,50);
     print(head);

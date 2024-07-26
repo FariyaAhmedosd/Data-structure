@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-    int arr[10],n,temp=0;
+    int arr[10],n;
     void input()
     {
     cout<<"enter size: ";

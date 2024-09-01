@@ -10,15 +10,6 @@ class node
         data=value;
         next=NULL;
     }
-    ~node()
-    {
-     int value=data;
-     if(next!=NULL)
-     {
-         delete next;
-         next=NULL;
-     }
-    }
 };
 void insert_tail(node*&tail,int data)
 {
